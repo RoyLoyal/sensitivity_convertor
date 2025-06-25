@@ -33,7 +33,7 @@ if game in game_multipliers:
     if game_convert in game_multipliers:
         converted_game = game_multipliers[game_convert]
         new_sens = deg_per_inch / (dpi * converted_game)
-        print(f"your new sens for {game_convert} is: {new_sens}")
+        print(f"\nyour new sens for {game_convert} is: {new_sens}")
         
 
 
